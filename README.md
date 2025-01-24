@@ -1,3 +1,7 @@
+## Note on Game Structure:
+This game was developed using C++ classes to manage different game components such as the player, enemies, and platforms. However, the classes are not optimized, and the game was initially intended to be completed in a single file. As a result, the code structure could be improved by separating it into header files and implementing more efficient class designs.
+For future improvements, the classes should be optimized for better performance, and the project should be refactored into multiple files to improve code organization and maintainability
+
 # Goblin-Platformer-Game-Raylib
 This is a simple 2D platformer game prototype made using the Raylib library. In this game, you control a goblin character as it runs, jumps, and dodges obstacles to reach the goal. While this is a functional prototype, it may have some glitches and is a work in progress. The game combines fun mechanics with smooth gameplay to provide an enjoyable experience. Here's an overview of the project:
 
@@ -22,10 +26,16 @@ This is a simple 2D platformer game prototype made using the Raylib library. In 
      - Applies gravity and jumping mechanics for smooth gameplay.
    -  Render the Scene: Draws the goblin, enemies, platforms, and the background to the screen.
    - Check End Conditions: Determines if the player has won or lost the level.
+![image](https://github.com/user-attachments/assets/4882f98c-3913-48ed-9f44-e6c030def3b1)
+![image](https://github.com/user-attachments/assets/31286038-14f1-4d7d-8140-8b4c04cb7517)
+![image](https://github.com/user-attachments/assets/24d61748-813b-4142-b39c-2c5f7f802de6)
+![image](https://github.com/user-attachments/assets/94134e2e-3668-4e8a-aca2-14967fe50881)
 
 3. ## Game Over or Level Transition:
    - Displays a game-over screen when the player loses or transitions to the next level if they succeed.
    - Allows the player to restart or quit.
+![image](https://github.com/user-attachments/assets/39711259-e40a-4095-9010-2e30be0615d6)
+![image](https://github.com/user-attachments/assets/2d6d1c48-e378-4aa7-a702-dfc46dc4e364)
 
 ## Why This Project?
 This project was created to learn and practice game development concepts using Raylib. It focuses on:
